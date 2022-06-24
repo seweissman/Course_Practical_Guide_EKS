@@ -10,12 +10,12 @@ spec:
     - http:
         paths:
           - path: /renting-api
-            pathType: prefix
+            pathType: Prefix
             backend:
               serviceName: renting-api-service
               servicePort: 80
           - path: /resource-api
-            pathType: prefix
+            pathType: Prefix
             backend:
               serviceName: resource-api-service
               servicePort: 80
